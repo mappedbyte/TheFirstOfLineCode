@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".FragmentBestPractice.MainActivity">
 
+
+    <fragment
+        android:id="@+id/newsTitleFrag"
+        android:name="com.francis.first.FragmentBestPractice.NewsTitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

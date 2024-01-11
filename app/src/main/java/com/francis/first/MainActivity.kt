@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.francis.first.ActivityLifeCycleTest.MainActivity
 import com.francis.first.databinding.ActivityMainBinding
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

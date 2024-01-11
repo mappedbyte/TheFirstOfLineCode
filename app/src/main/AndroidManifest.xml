@@ -13,8 +13,11 @@
         android:theme="@style/Theme.FirstCode"
         tools:targetApi="31">
         <activity
-            android:name=".FragmentBestPractice.MainActivity"
+            android:name=".FragmentBestPractice.NewsContentActivity"
             android:exported="false" />
+   <!--     <activity
+            android:name=".FragmentBestPractice.MainActivity"
+            android:exported="false" />-->
         <!--
                 <activity
             android:name=".FragmentTest.MainActivity"
@@ -70,7 +73,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FragmentTest.MainActivity"
+            android:name=".FragmentBestPractice.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
